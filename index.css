@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(31, 30, 30);
+  color: rgb(202, 198, 198);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+main {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.innerLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  text-decoration: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(31, 30, 30);
+  text-decoration: none;
+  border: 1px solid rgb(103, 95, 95);
+  color: rgb(202, 198, 198);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+.innerLinks:hover {
+  background-color: rgb(103, 95, 95);
+}
+h1,
+h2 {
+  text-align: center;
+}
+.profileImg {
+  max-width: 40vw;
+  border-radius: 100px;
+  justify-self: center;
+  display: flex;
+}
+.projectImg {
+  border-radius: 5px;
+  max-width: 90%;
+  margin: 15px;
+}
+.projectLinks {
+  display: flex;
+  justify-content: center;
+  /* max-width: 250px; */
+  max-width: 40%;
+}
+
+.sectionBtn {
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(31, 30, 30);
+  text-decoration: none;
+  border: 1px solid rgb(103, 95, 95);
+  color: rgb(202, 198, 198);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+.sectionBtn:hover {
+  background-color: rgb(103, 95, 95);
+}
+#linkedInLogo {
+  width: 100px;
+}
+figure {
+  display: flex;
+  justify-content: center;
+}
+section {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+p {
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+  .profileImg {
+    max-width: 20vw;
+    border-radius: 100px;
+  }
+  .projectLinks {
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    /* max-width: 40%; */
+  }
+}
