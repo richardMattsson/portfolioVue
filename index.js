@@ -122,7 +122,7 @@ const Projects = {
         >◀</router-link
       >
       <h1>Projects</h1>
-<main>
+<main id="projects">
   <a class="projectLinks" href="https://richardmattsson.github.io/Todo-List/"
         ><img
           class="projectImg"
