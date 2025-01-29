@@ -108,4 +108,10 @@ p {
     max-width: 250px;
     /* max-width: 40%; */
   }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
