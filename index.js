@@ -99,18 +99,6 @@ const Home = {
           >
         </section>
       </main>
-
-      <footer class="footer">
-        <a
-          href="http://www.linkedin.com/in/richardmattsson"
-          target="_blank"
-          ><img
-            src="images/LI-Logo.png"
-            alt=""
-            srcset=""
-            id="linkedInLogo"
-        /></a>
-      </footer>
  `,
 };
 
